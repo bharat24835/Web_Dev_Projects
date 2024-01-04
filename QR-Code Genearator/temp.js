@@ -10,6 +10,8 @@ function generateQR(){
     else{
         // alert("Will You Please Add some Text to Generate QR Code")
         qrText.classList.add('error');
+              
+
         setTimeout(()=> {
             qrText.classList.remove('error');
 
